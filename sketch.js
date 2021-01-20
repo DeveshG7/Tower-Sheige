@@ -135,6 +135,7 @@ function keyPressed(){
 if(keyCode === 32){
 sling.attach(poly.body)
 Matter.Body.setPosition(poly.body, {x:150, y:225})
+ gameState="play";
 }
 
 }
